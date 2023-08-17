@@ -1,19 +1,19 @@
-// My Account Details
+// My Account Details section
 let accountDetails = {
-  dialCode: 123,
-  accountBalance: 10000,
+  dialCode: 7777,
+  accountBalance: 500710,
 };
 
-// My account name and pin prompt
+// My account name and pin prompt section
 let dialCode = +prompt("Bank USSD Code:");
 
-// To Verify the name and PIN entered
+// To Verify the name and PIN entered section
 if (dialCode !== accountDetails.dialCode) {
   alert("Invalid USSD Code.");
 } else {
-  // Prompt for operation
+  // Prompt for operation section
   let accountOperation = prompt(
-    `FRED Bank,
+    `AYB Bank,
           1. Check balance
           2. Transfer
           3. Airtime
@@ -30,8 +30,8 @@ if (dialCode !== accountDetails.dialCode) {
 
       //Recipient Details object
       let recipientDetails = {
-        accountName: "Alfred",
-        accountNumber: "123456789",
+        accountName: "Instinct",
+        accountNumber: "1122334455",
       };
 
       if (recipientAccount === recipientDetails.accountNumber) {
